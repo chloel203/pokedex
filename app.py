@@ -17,8 +17,8 @@ def pokedex(data):
     x=input("which pokemon would you like to view")
     pokemon_search=[]
     if x in pokemonfound:
-        if x.lower() in 
-        pokemon_search.append(item["name"])
+        if x.lower() in data.lower:
+            pokemon_search.append(item["name"])
         print (pokemon_search)
     else:
         print("no pokemon found")
